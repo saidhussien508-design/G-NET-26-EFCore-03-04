@@ -15,6 +15,7 @@ namespace assiment_efcore_4444
             optionsBuilder.UseSqlServer("Server=.; Database=assiment3-4; Trusted_Connection=True; TrustServerCertificate=True");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
+
         {
             modelBuilder.Entity<branch>().HasOne(x => x.Manger).WithOne(s => s.branch).HasForeignKey<branch>(o => o.mangerid);
             modelBuilder.Entity<customerAcount>().HasKey(sc => new {sc.customerid,sc.accountid});
