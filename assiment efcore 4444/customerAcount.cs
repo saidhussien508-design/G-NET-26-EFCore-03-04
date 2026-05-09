@@ -11,6 +11,7 @@ namespace assiment_efcore_4444
     {
         public DateTime OwnerShipStartDate { get; set; }
         public string OwnerShipType { get; set; }
+
         public string AccountStatus { get; set; }
         public Customer customer { get; set; }
         public account account { get; set; }
