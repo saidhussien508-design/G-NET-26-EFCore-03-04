@@ -11,6 +11,7 @@ namespace assiment_efcore_4444
     {
         public int transactionid { get; set; }
         public DateTime transactionDate { get; set; }
+
         public int Amount { get; set; }
         public string transactiontype { get; set; }
         public string Description { get; set; }

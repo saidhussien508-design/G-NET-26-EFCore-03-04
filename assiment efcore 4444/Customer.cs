@@ -10,6 +10,7 @@ namespace assiment_efcore_4444
     public class Customer
     {
         public int customerid { get; set; } 
+
         public string fullname { get; set; }
         public DateTime DateofBirth { get; set; }   
         public int Nationalid { get;set; }

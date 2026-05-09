@@ -13,6 +13,7 @@ namespace assiment_efcore_4444
         [Key]
         public int AcountNumber { get; set; }   
         public string AccountType { get; set; }
+
         public DateTime openingDate { get; set; }   
         public int currentBalance { get; set; }
        

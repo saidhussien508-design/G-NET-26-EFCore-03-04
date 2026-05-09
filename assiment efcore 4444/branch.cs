@@ -14,6 +14,7 @@ namespace assiment_efcore_4444
         public int Branchcoude { get; set; }  
         public string Name { get; set; }
 
+
         public string Address { get; set; }
 
         public string phoneNumber { get; set; }
